@@ -41,10 +41,10 @@ public class FileSearchCriteria {
       		new FileInputStream(filename));
     		document.close();
 	}	
-	public boolean isFileEmpty(String Filename)
-	{
-		BufferedReader br = new BufferedReader(new FileReader(filename));
-		return br.readline()=null;
-	}
+	//public boolean isFileEmpty(String Filename)
+	//{
+	//	BufferedReader br = new BufferedReader(new FileReader(filename));
+	//	return br.readline()=null;
+	//}
 
 }
